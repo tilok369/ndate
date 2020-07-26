@@ -1,0 +1,15 @@
+*.suo
+*.user
+_ReSharper*
+[Oo]bj/
+[Bb]in/
+TestResults/
+*.vspscc
+*.vssscc
+TestResults
+~*
+*_generated_*.css
+General
+Publish
+DsPublish
+.vs
