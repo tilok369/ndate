@@ -4,6 +4,11 @@ namespace NDate.Ext
 {
     public static class Extension
     {
+        /// <summary>
+        /// Get the current year based on provided date
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns>start and end date of current year</returns>
         public static DateRange CurrentYear(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -14,6 +19,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// Get the last year based on provided date
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns>start and end date of last year</returns>
         public static DateRange LastYear(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -24,6 +34,12 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// Get the nth year based on provided date and value of n
+        /// </summary>
+        /// <param name="date"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static DateRange NthYear(this DateTime date, int n)
         {
             DateRange range = new DateRange();
@@ -34,6 +50,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// Get the current month based on provided date
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange CurrentMonth(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -44,6 +65,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// Get the last month based on provided date
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange LastMonth(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -54,6 +80,12 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// Get the nth month based on provided date and value of n
+        /// </summary>
+        /// <param name="date"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static DateRange NthMonth(this DateTime date, int n)
         {
             DateRange range = new DateRange();
@@ -64,6 +96,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange CurrentWeek(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -74,6 +111,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange LastWeek(this DateTime date)
         {
             DateRange range = date.CurrentWeek();
@@ -84,6 +126,12 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static DateRange NthWeek(this DateTime date, int n)
         {
             DateRange range = date.CurrentWeek();
@@ -94,6 +142,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange YTD(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -104,6 +157,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange QTD(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -120,6 +178,11 @@ namespace NDate.Ext
             return range;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange Q1(this DateTime date)
         {
             return new DateRange
@@ -129,6 +192,11 @@ namespace NDate.Ext
             };
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange Q2(this DateTime date)
         {
             return new DateRange
@@ -138,6 +206,11 @@ namespace NDate.Ext
             };
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange Q3(this DateTime date)
         {
             return new DateRange
@@ -147,6 +220,11 @@ namespace NDate.Ext
             };
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public static DateRange Q4(this DateTime date)
         {
             return new DateRange
