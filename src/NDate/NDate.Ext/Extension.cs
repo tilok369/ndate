@@ -39,7 +39,7 @@ namespace NDate.Ext
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of nth year</returns>
         public static DateRange NthYear(this DateTime date, int n)
         {
             DateRange range = new DateRange();
@@ -54,7 +54,7 @@ namespace NDate.Ext
         /// Get the current month based on provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of current month</returns>
         public static DateRange CurrentMonth(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -69,7 +69,7 @@ namespace NDate.Ext
         /// Get the last month based on provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of last month</returns>
         public static DateRange LastMonth(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -85,7 +85,7 @@ namespace NDate.Ext
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of nth month</returns>
         public static DateRange NthMonth(this DateTime date, int n)
         {
             DateRange range = new DateRange();
@@ -97,10 +97,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the current week based on provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of current week</returns>
         public static DateRange CurrentWeek(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -112,10 +112,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the last week based on provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of last week</returns>
         public static DateRange LastWeek(this DateTime date)
         {
             DateRange range = date.CurrentWeek();
@@ -127,11 +127,11 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the nth week based on provided date and the value of n
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of nth week</returns>
         public static DateRange NthWeek(this DateTime date, int n)
         {
             DateRange range = date.CurrentWeek();
@@ -143,10 +143,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the year to date value based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of year to date (YTD)</returns>
         public static DateRange YTD(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -158,10 +158,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the quarter to date value based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of quarter to date (QTD)</returns>
         public static DateRange QTD(this DateTime date)
         {
             DateRange range = new DateRange();
@@ -179,10 +179,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the 1st quarter of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of 1st quarter</returns>
         public static DateRange Q1(this DateTime date)
         {
             return new DateRange
@@ -193,10 +193,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the 2nd quarter of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of 2nd quarter</returns>
         public static DateRange Q2(this DateTime date)
         {
             return new DateRange
@@ -207,10 +207,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the 3rd quarter of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of 3rd quarter</returns>
         public static DateRange Q3(this DateTime date)
         {
             return new DateRange
@@ -221,10 +221,10 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// 
+        /// Get the 4th quarter of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
-        /// <returns></returns>
+        /// <returns>start and end date of 4th quarter</returns>
         public static DateRange Q4(this DateTime date)
         {
             return new DateRange
