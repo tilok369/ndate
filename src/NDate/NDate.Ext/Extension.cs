@@ -5,7 +5,7 @@ namespace NDate.Ext
     public static class Extension
     {
         /// <summary>
-        /// Get the current year based on provided date
+        /// Get the current year range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of current year</returns>
@@ -20,7 +20,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the last year based on provided date
+        /// Get the last year range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of last year</returns>
@@ -35,7 +35,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the nth year based on provided date and value of n
+        /// Get the nth year range based on provided date and value of n
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
@@ -51,7 +51,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the current month based on provided date
+        /// Get the current month range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of current month</returns>
@@ -66,7 +66,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the last month based on provided date
+        /// Get the last month range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of last month</returns>
@@ -81,7 +81,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the nth month based on provided date and value of n
+        /// Get the nth month range based on provided date and value of n
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
@@ -97,7 +97,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the current week based on provided date
+        /// Get the current week range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of current week</returns>
@@ -112,7 +112,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the last week based on provided date
+        /// Get the last week range based on provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of last week</returns>
@@ -127,7 +127,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the nth week based on provided date and the value of n
+        /// Get the nth week range based on provided date and the value of n
         /// </summary>
         /// <param name="date"></param>
         /// <param name="n"></param>
@@ -143,7 +143,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the year to date value based on the provided date
+        /// Get the year to date range value based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of year to date (YTD)</returns>
@@ -158,7 +158,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the quarter to date value based on the provided date
+        /// Get the quarter to date range value based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of quarter to date (QTD)</returns>
@@ -179,7 +179,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the 1st quarter of the year based on the provided date
+        /// Get the 1st quarter range of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of 1st quarter</returns>
@@ -193,7 +193,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the 2nd quarter of the year based on the provided date
+        /// Get the 2nd quarter range of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of 2nd quarter</returns>
@@ -207,7 +207,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the 3rd quarter of the year based on the provided date
+        /// Get the 3rd quarter range of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of 3rd quarter</returns>
@@ -221,7 +221,7 @@ namespace NDate.Ext
         }
 
         /// <summary>
-        /// Get the 4th quarter of the year based on the provided date
+        /// Get the 4th quarter range of the year based on the provided date
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of 4th quarter</returns>
