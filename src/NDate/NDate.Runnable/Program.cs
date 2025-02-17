@@ -54,12 +54,12 @@ namespace NDate.Runnable
                                                      + " - 5 Weeks Ago End:"
                                                      + fiveWeekAgo.End.ToString("yyyy-MM-dd"));
 
-            var ytd = date.YTD();
+            var ytd = date.Ytd();
             Console.WriteLine("YTD Start: " + ytd.Start.ToString("yyyy-MM-dd")
                                                      + " - YTD End:"
                                                      + ytd.End.ToString("yyyy-MM-dd"));
 
-            var qtd = date.QTD();
+            var qtd = date.Qtd();
             Console.WriteLine("QTD Start: " + qtd.Start.ToString("yyyy-MM-dd")
                                             + " - QTD End:"
                                             + qtd.End.ToString("yyyy-MM-dd"));
