@@ -83,6 +83,21 @@ namespace NDate.Runnable
             Console.WriteLine("Q4 Start: " + q4.Start.ToString("yyyy-MM-dd")
                                            + " - Q4 End:"
                                            + q4.End.ToString("yyyy-MM-dd"));
+            
+            var lastThirtyDays = date.LastThirtyDay();
+            Console.WriteLine("Last Thirty Days Start: " + lastThirtyDays.Start.ToString("yyyy-MM-dd")
+                                           + " - Last Thirty Days End:"
+                                           + lastThirtyDays.End.ToString("yyyy-MM-dd"));
+            
+            var yesterday = date.Yesterday();
+            Console.WriteLine("Yesterday Start: " + yesterday.Start.ToString("yyyy-MM-dd")
+                                           + " - Yesterday End:"
+                                           + yesterday.End.ToString("yyyy-MM-dd"));
+            
+            var tomorrow = date.Tomorrow();
+            Console.WriteLine("Tomorrow Start: " + tomorrow.Start.ToString("yyyy-MM-dd")
+                                           + " - Tomorrow End:"
+                                           + tomorrow.End.ToString("yyyy-MM-dd"));
 
             Console.ReadKey(true);
         }

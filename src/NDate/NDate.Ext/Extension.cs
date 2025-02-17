@@ -253,7 +253,7 @@ namespace NDate.Ext
         /// </summary>
         /// <param name="date"></param>
         /// <returns>start and end date of last thirty days</returns>
-        public static DateRange LastThirtyDay(DateTime date)
+        public static DateRange LastThirtyDay(this DateTime date)
         {
             var range = new DateRange
             {
