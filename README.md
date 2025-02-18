@@ -1,5 +1,11 @@
 # ndate
-A .NET Core DateTime extension functions library/ It will give us the facility to get any familiar date ranges such as current year, nth year, current month, last month etc.
+A .NET Core DateTime extension functions library. It will give us the facility to get any familiar date ranges such as current year, nth year, current month, last month etc.
+
+## Available in NuGet
+Install it via
+```
+Install-Package NDate.Ext -Version 1.2.0
+```
 
 ## returns type => DateRange {Start: DateTime, End: DateTime}
 
