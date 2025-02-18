@@ -3,7 +3,7 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>tilok369</Authors>
-    <Description>A .NET Core DateTime extension functions library. It will give us the facility to get any familiar date ranges such as current year, nth year, current month, last month etc.</Description>
+    <Description>A .NET Core DateTime extension functions library. It will give us the facility to get any familiar date ranges such as current year, nth year, current month, last month, YTD, QTD etc.</Description>
     <RepositoryUrl>https://github.com/tilok369/ndate</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -11,7 +11,7 @@
     <PackageTags>ndate,.netcore,date range,datetime,extension</PackageTags>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1.0.0</Version>
+    <Version>1.2.0.0</Version>
     <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
   </PropertyGroup>
 
