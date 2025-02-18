@@ -156,4 +156,34 @@ Console.WriteLine("Q4 Start: " + q4.Start.ToString("yyyy-MM-dd")
                                + " - Q4 End:"
                                + q4.End.ToString("yyyy-MM-dd"));
 ```
-Last Updated: 2021-03-12
+## LastThirtyDays()
+
+Returns the start and end date range of last thirty days.
+```
+var lastThirtyDays = date.LastThirtyDay();
+Console.WriteLine("Last Thirty Days Start: " + lastThirtyDays.Start.ToString("yyyy-MM-dd")
+                               + " - Last Thirty Days End:"
+                               + lastThirtyDays.End.ToString("yyyy-MM-dd"));
+```
+
+## Yesterday()
+
+Returns the start and end date range of Yesterday.
+```
+var yesterday = date.Yesterday();
+Console.WriteLine("Yesterday Start: " + yesterday.Start.ToString("yyyy-MM-dd")
+                               + " - Yesterday End:"
+                               + yesterday.End.ToString("yyyy-MM-dd"));  
+```
+
+## Tomorrow()
+
+Returns the start and end date range of tomorrow.
+```
+var tomorrow = date.Tomorrow();
+Console.WriteLine("Tomorrow Start: " + tomorrow.Start.ToString("yyyy-MM-dd")
+                               + " - Tomorrow End:"
+                               + tomorrow.End.ToString("yyyy-MM-dd"));
+```
+
+Last Updated: 2025-02-19
