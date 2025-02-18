@@ -2,7 +2,7 @@
 A .NET Core DateTime extension functions library. It will give us the facility to get any familiar date ranges such as current year, nth year, current month, last month etc.
 
 ## Available in NuGet
-Install it via
+Install it via below command. Support added for .NET 8.
 ```
 Install-Package NDate.Ext -Version 1.2.0
 ```
