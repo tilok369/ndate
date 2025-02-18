@@ -7,6 +7,10 @@ Install it via
 Install-Package NDate.Ext -Version 1.2.0
 ```
 
+# Give it a STAR :star:
+Loving this repository? Show your support by giving this project a star!
+
+
 ## returns type => DateRange {Start: DateTime, End: DateTime}
 
 ```
